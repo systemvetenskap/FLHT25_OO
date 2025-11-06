@@ -1,0 +1,41 @@
+﻿<Window
+    x:Class="ColorSwapper.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:ColorSwapper"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Färgväljaren"
+    Width="800"
+    Height="450"
+    mc:Ignorable="d">
+    <Grid>
+        <Border
+            x:Name="colorBox"
+            Width="200"
+            Height="200"
+            Margin="400,125,182,165"
+            Background="{DynamicResource {x:Static SystemColors.AppWorkspaceBrushKey}}"
+            BorderBrush="Black"
+            BorderThickness="1" />
+        <Button
+            x:Name="btnRed"
+            Width="153"
+            Height="67"
+            Margin="57,78,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Click="OnRedClick"
+            Content="Rött" />
+        <Button
+            x:Name="btnGreen"
+            Width="153"
+            Height="67"
+            Margin="57,179,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Click="OnGreenClick"
+            Content="Rött" />
+
+    </Grid>
+</Window>

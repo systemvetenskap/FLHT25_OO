@@ -1,0 +1,29 @@
+Datatyper
+
+heltal		int   integer 
+decimaltal	double
+strängar	string	en uppsättning av ett antal tecken, till exempel bokstäver
+bool		true/false	för att kontrollera om något är sant eller falskt
+
+********* Variabler **********
+måste ha en datatyp
+och ett namn
+
+tex string name;
+
+tilldela värden
+name = "Erik";
+
+Variabler har en räckvidd. Det styrs av kodblock { }
+eller, med andra ord. En variabel lever bara i sin egna låda
+
+Styrande satser
+if
+har en parentes som innehåller ett logiskt uttryck_ true false
+
+om vi vill, kan en if-sats också kopplas samman med en else
+
+OBS c# kontrollerar ALLTID alla if-satser
+
+När vi kodar vill vi undvika duplicering av kod
+DRY don't repeat yourself
