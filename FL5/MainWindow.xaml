@@ -1,0 +1,15 @@
+﻿<Window x:Class="FL5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FL5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btnIncrease" Content="Öka hastighet" HorizontalAlignment="Left" Margin="62,52,0,0" VerticalAlignment="Top" Height="78" Width="167" Click="OnIncreaseClick"/>
+        <Button x:Name="btnDecrease" Content="Minska hastighet" HorizontalAlignment="Left" Margin="62,148,0,0" VerticalAlignment="Top" Height="69" Width="167" Click="OnDecreaseClick"/>
+        <Button x:Name="btnShow" Content="Visa hastighet" HorizontalAlignment="Left" Margin="62,236,0,0" VerticalAlignment="Top" Height="73" Width="167" Click="OnShowSpeedClick"/>
+
+    </Grid>
+</Window>

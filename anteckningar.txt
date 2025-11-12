@@ -17,7 +17,25 @@ name = "Erik";
 Variabler har en räckvidd. Det styrs av kodblock { }
 eller, med andra ord. En variabel lever bara i sin egna låda
 
-Styrande satser
+På engelska kallas detta för scope.
+
+Det betyder att om jag skapar en variabel inuti en låda/kodblock så lever den
+bara där. Samma variabel kan alltså deklareras på olika ställen i vår kod så länge
+de finns i olika kodblock.
+
+Om vill öka räckvidd. Lägg den i en större låda!
+
+
+
+
+
+
+
+
+
+
+
+*************** Styrande satser
 if
 har en parentes som innehåller ett logiskt uttryck_ true false
 
