@@ -41,7 +41,54 @@ har en parentes som innehåller ett logiskt uttryck_ true false
 
 om vi vill, kan en if-sats också kopplas samman med en else
 
-OBS c# kontrollerar ALLTID alla if-satser
+OBS C# kontrollerar ALLTID alla if-satser
 
 När vi kodar vill vi undvika duplicering av kod
 DRY don't repeat yourself
+
+********** Loopar ************
+Om vi vill repetera en viss kodrad X antal gånger. Använd en loop
+
+for-loopen
+Den är bra när vi behöver hålla koll på vilket varv vi gör något
+
+den startar oftast från i = 0;
+
+den har tre kontroller. Först startvärde, sedan villkor för fortsättning, sedan ökning
+
+En for-loop kan gå både fram- och baklänges.
+
+Den kan hoppa över vartannat fack
+
+foreach
+Enklast när vi bara vill titta på alla värden i en kollektion. Börjar från start
+och går steg för steg genom hela listan/kollektionen/arrayen
+
+
+**** Arrayer ****
+En variabel är en "låda" som kan ha ett och endast ett värde
+
+En array däremot är en variabel som har många lådor av samma sort.
+
+int[] dices = new int[5];
+bool[] selectedDices = new bool[5];
+double[] values = {2, 5.9, 5.5};
+values[0] = 22;
+dice[] // en egen datatyp som kanske har tärningar
+pirate[] // många pirater
+
+********* Metoder **********
+En metod är ett smart sätt att dela upp koden i små moduler
+
+varje metod får ett eget ansvarsområde
+
+metoder har ett metodhuvud
+accessor datatyp/returvärde  namn + eventuellt parametrar
+
+accessor : private eller public
+returvärde: vad är det min metod ska lämna tillbaka? Antingen ett returvärde, eller void
+namn: metodens namn StorBokstav()
+parametrar: behöver min metod känna till något för att kunna göra sitt jobb?
+
+
+och en kropp = kodblock

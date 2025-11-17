@@ -80,9 +80,14 @@ namespace Yatzy
         {
             int twos = 0;
             int numberOfDices = 8, maxValue;
+            txtMessage.Text = numberOfDices.ToString();
 
+            MessageBox.Show("hej");
 
+            // x = 34;
             maxValue = 2 * numberOfDices;
+
+            maxValue = (int)2.5;
 
             twos = int.Parse(txtTwos.Text);
 
