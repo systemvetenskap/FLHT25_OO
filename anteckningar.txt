@@ -64,6 +64,8 @@ foreach
 Enklast när vi bara vill titta på alla värden i en kollektion. Börjar från start
 och går steg för steg genom hela listan/kollektionen/arrayen
 
+ibland behöver vi ta oss ur en loop för att gå vidare till nästa steg.
+
 
 **** Arrayer ****
 En variabel är en "låda" som kan ha ett och endast ett värde
