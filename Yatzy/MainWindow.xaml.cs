@@ -13,6 +13,19 @@ namespace Yatzy
             InitializeComponent();
         }
 
+        private int CountOccurences(int[] values, int search)
+        {
+            int count = 0;
+            foreach (int value in values)
+            {
+                if (value == search)
+                {
+                    count++;
+                }
+            }
+            return count;
+        }
+
         // Här kodar vi saker som ska hända när någon klickar på en knapp
         private void OnCalculateClick(object sender, RoutedEventArgs e)
         {
@@ -76,8 +89,17 @@ namespace Yatzy
             // om värdet är ogiltigt. Visa ett felmeddelande i en MessageBox
         }
 
+        private int CountCategory(int category)
+        {
+            int[] dices = { 1, 2, 5, 6, 2 };
+            int count = CountOccurences(dices, category);
+            return count * category;
+        }
         private void btnTwos_Click(object sender, RoutedEventArgs e)
         {
+            int sum = CountCategory(2);
+            
+            
             int twos = 0;
             int numberOfDices = 8, maxValue;
             txtMessage.Text = numberOfDices.ToString();

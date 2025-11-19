@@ -66,6 +66,28 @@ och går steg för steg genom hela listan/kollektionen/arrayen
 
 ibland behöver vi ta oss ur en loop för att gå vidare till nästa steg.
 
+En loop använder vi väldigt ofta tillsammans med arrayer. VAd är det egentligen man
+kan göra?
+
+1, 12, 233, 43, 54, 56, 334
+
+--> summera
+--> differensen av alla tal
+--> median 
+--> medelvärde
+--> sortera
+--> max
+--> min
+--> innehåller listan ett visst värde?
+
+banan, melon, kiwi
+--> antal frukter
+--> finns citron i listan?
+
+a, b, c, d, e, f, g
+--> finns x i listan
+--> hur många gånger förekommer x i listan
+
 
 **** Arrayer ****
 En variabel är en "låda" som kan ha ett och endast ett värde
@@ -82,7 +104,8 @@ pirate[] // många pirater
 ********* Metoder **********
 En metod är ett smart sätt att dela upp koden i små moduler
 
-varje metod får ett eget ansvarsområde
+varje metod får ett eget ansvarsområde 
+SOC separation of concern
 
 metoder har ett metodhuvud
 accessor datatyp/returvärde  namn + eventuellt parametrar
