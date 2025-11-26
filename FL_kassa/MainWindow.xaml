@@ -10,6 +10,7 @@
         <TextBlock x:Name="txtTotal" HorizontalAlignment="Left" Margin="135,237,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="25"/>
         <TextBox x:Name="txtPris" HorizontalAlignment="Left" Margin="135,93,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="167" Height="54" FontSize="25"/>
         <Button x:Name="btnSumma" Content="Summa" HorizontalAlignment="Left" Margin="135,180,0,0" VerticalAlignment="Top" FontSize="25" Click="btnSumma_Click"/>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="369,199,0,0" VerticalAlignment="Top" Click="button_Click"/>
 
     </Grid>
 </Window>

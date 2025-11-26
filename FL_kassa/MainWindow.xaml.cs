@@ -73,6 +73,44 @@ namespace FL_kassa
         private void btnSumma_Click(object sender, RoutedEventArgs e)
         {
 
+            /* Egenskaper som beskriver en vara
+             * pris
+             * pris per liter
+             * pris per meter
+             * pris per enhet
+             * namn
+             * varutyp
+             * rabatt
+             */
+            // pris
+
+            // datatyp namn och eventuellt startvärde
+            string name = "Erik";
+            //Product product = new Product("Test");
+
+            // Vi tilldelar ett värde till egenskapen  Country
+            // för detta utnyttjar vi vår {set;}
+            //product.Country = "Sverige";
+            
+
+            // hämta värdet från vår {get};
+            //MessageBox.Show($"Den här varan kommer från {product.Country}");
+
+            //if (product.IsEcological)
+            //{
+            //    MessageBox.Show($"Den här varan kommer är ekologisk");
+            //}
+
+
+            //if (product.IsEcological && product.Country == "Sverige")
+            //{
+
+            //}
+            Random random = new Random();
+
+
+
+
             // hämta in summan från gränssnittet
             double pris = double.Parse(txtPris.Text);
             double rabatt = 0;
@@ -88,6 +126,49 @@ namespace FL_kassa
 
 
             txtTotal.Text = _totalSumma.ToString();
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            Product product = new Product(123, "Apelsin");
+
+            // Nu har jag skapat ett objekt, product
+
+            // Men den har inga egenskaper satta
+
+            // Variant 1
+            // använd punktnotation
+           // product.Price = 2.50;
+            product.Weight = 200;
+            product.IsEcological = false;
+            product.Country = "Belgien";
+
+            product.Country="asfsalöjkdfjaslökdjas";
+
+            product.SetPrice(1234);
+            product.SetPrice(12);
+            product.SetPrice(1322);
+            product.SetPrice(88);
+            product.SetPrice(823);
+            product.SetPrice(2348);
+            product.SetPrice(8448);
+            product.SetPrice(84368);
+
+            // sätt två. Object Initializer
+            Product product2 = new Product(1223, "Älgkött")
+            {
+                Country = "Norge",
+                IsEcological = true,
+                //Price = 100
+            };
+            product2.SetPrice(500);
+            // variant tre
+            // använd konstruktor
+            string name = "Gurka";
+            Product product3 = new Product(234, name);
+            product3.SetPrice(-123123);
+            Product product4 = new Product(134, "Goda grytan");
+
         }
     }
 }

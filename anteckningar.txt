@@ -25,6 +25,32 @@ de finns i olika kodblock.
 
 Om vill öka räckvidd. Lägg den i en större låda!
 
+************ Klasser och objekt ***********
+
+En klass är en "samling" av saker som på något sätt hör ihop
+
+Till exempel. En vara i en affär som har flera egenskaper (namn, pris, vikt, osv)
+
+Student -- namn, adress, kurser
+
+Bil, märke, modell årsmodell
+
+Hund - ras, färg, storlek, namn
+
+Vi beskriver vår klass med egenskaper (properties). Hur klassen är eller ser ut
+En property "måste" ha {get; set;}
+
+och med metoder-- vad klassen kan göra eller utföra
+
+Vi skapar en klass med inkapsling. Det betyder att kodaren väljer vad som ska 
+vara public och vad som är private
+
+Tätt kopplat till klasser finns objekt. Det är det "konkreta" en instans från klassen
+
+När  vi skapar objekt körs klassens konstruktor. Det är en "metod" som körs en enda gång
+= när objektet skapas
+
+
 
 
 
