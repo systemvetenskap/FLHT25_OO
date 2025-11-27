@@ -50,6 +50,17 @@ Tätt kopplat till klasser finns objekt. Det är det "konkreta" en instans från kl
 När  vi skapar objekt körs klassens konstruktor. Det är en "metod" som körs en enda gång
 = när objektet skapas
 
+********** ARV **********
+
+En smidig funktion i objektorientering är arv
+
+Då har vi en basklass = förälder
+
+som kan ha subklasser = barn
+
+************ Abstract *******
+En klass kan vara abstrakt. Det betyder att det inte går att skapa objekt från den
+
 
 
 

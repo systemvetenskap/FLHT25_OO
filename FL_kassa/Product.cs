@@ -20,9 +20,9 @@ class Product
     public string Name { get; set; }
 
     // har två konstruktorer. En utan parametrar
-    //public Product()
-    //{
-    //}
+    public Product()
+    {
+    }
     // och en som har parameter med ett startvärde
     public Product(double price, string name = "Icas egen")
     {
