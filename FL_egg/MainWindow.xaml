@@ -7,8 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="399*"/>
+            <ColumnDefinition Width="401*"/>
+        </Grid.ColumnDefinitions>
         <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="153,90,0,0" VerticalAlignment="Top" Click="button_Click"/>
-        <ListBox x:Name="lstEggs" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="296,47,296,217" SelectionChanged="lstEggs_SelectionChanged"/>
+        <ListBox x:Name="lstEggs" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="296,47,296,217" SelectionChanged="lstEggs_SelectionChanged" Grid.ColumnSpan="2"/>
+        <Button x:Name="button1" Content="Kläck alla ägg" HorizontalAlignment="Left" Margin="153,235,0,0" VerticalAlignment="Top" Click="button1_Click"/>
 
     </Grid>
 </Window>

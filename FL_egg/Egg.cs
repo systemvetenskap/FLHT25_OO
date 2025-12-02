@@ -3,7 +3,7 @@
 public class Egg
 {
     private static readonly Random _random = new();
-
+    private const double FertilityProbabilityThreshold = 0.9;
     public int Id { get; }
     public bool IsFertile { get; private set; } = false;
 
@@ -39,7 +39,7 @@ public class Egg
     {
         // smart kod för att göra ägget ruttet eller inte
         double probability = _random.NextDouble();
-        if (probability < 0.9)
+        if (probability < FertilityProbabilityThreshold)
         {
             IsFertile = true;
         }

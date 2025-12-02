@@ -16,6 +16,7 @@ namespace FL9
     /// </summary>
     public partial class MainWindow : Window
     {
+        private int counter = 0;
 
         public MainWindow()
         {
@@ -32,7 +33,6 @@ namespace FL9
         private void button_Click(object sender, RoutedEventArgs e)
         {
             int numberOfPassenger = 12;
-
             double balanceWeight = numberOfPassenger % 2;
             // Vi introducerar modulus = %
 
@@ -48,7 +48,6 @@ namespace FL9
                 MessageBox.Show("Karusellen är i obalans");
 
             }
-
 
 
 
@@ -89,7 +88,6 @@ namespace FL9
         }
         private bool ContainsLetter(string sentence, char[] letters)
         {
-            int counter = 0;
             foreach (char letter in letters)
             {
                 foreach (char sign in sentence)

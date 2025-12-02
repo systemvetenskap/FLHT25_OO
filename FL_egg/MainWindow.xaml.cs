@@ -43,5 +43,13 @@ namespace FL_egg
                 MessageBox.Show($"Kycklingen {chicken.Name} med id {chicken.Id} har fötts");
             }
         }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            _farm.BuyEggs(120);
+
+            int numberOfEggs = 1213;
+            List<Chicken> chickens = _farm.HatchAllEggs(numberOfEggs);
+        }
     }
 }
