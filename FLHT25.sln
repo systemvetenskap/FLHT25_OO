@@ -34,6 +34,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FL_figurer", "FL_figurer\FL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FL_egg", "FL_egg\FL_egg.csproj", "{3DBD394A-9DFF-43AA-A8B8-2C771FC2E513}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusikhjalpenTenta", "MusikhjalpenTenta\MusikhjalpenTenta.csproj", "{69CD0387-329E-4DE2-BF8B-0F349D32456F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -92,6 +94,10 @@ Global
 		{3DBD394A-9DFF-43AA-A8B8-2C771FC2E513}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DBD394A-9DFF-43AA-A8B8-2C771FC2E513}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DBD394A-9DFF-43AA-A8B8-2C771FC2E513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69CD0387-329E-4DE2-BF8B-0F349D32456F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69CD0387-329E-4DE2-BF8B-0F349D32456F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69CD0387-329E-4DE2-BF8B-0F349D32456F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69CD0387-329E-4DE2-BF8B-0F349D32456F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
